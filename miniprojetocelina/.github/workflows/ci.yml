@@ -3,7 +3,7 @@ name: CI
 on:
   push:
     branches:
-      - main
+      - testes
       - '**'  # Isso permitirá que o workflow rode em qualquer branch
   pull_request:
     branches:
