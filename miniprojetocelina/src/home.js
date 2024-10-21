@@ -1,8 +1,7 @@
-import React from 'react';
+const React = require('react');
 
 function Home() {
-  return <div>Hello, World!</div>;
+  return React.createElement('div', null, 'Bem-vindo à Home!');
 }
 
-export default Home;
-
+module.exports = Home;

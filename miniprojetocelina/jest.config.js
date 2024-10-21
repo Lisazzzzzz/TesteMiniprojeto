@@ -1,8 +1,6 @@
 module.exports = {
-    testEnvironment: 'jsdom',
-    testEnvironmentOptions: {
-        resources: 'usable',
-      },
-  };
-  
-
+  testEnvironment: 'jsdom',
+  testEnvironmentOptions: {
+      resources: 'usable',
+    },
+};

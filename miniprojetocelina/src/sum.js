@@ -1,6 +1,6 @@
-function sum(a, b) {
-    return a + b;
-  }
-  module.exports = sum;
+function soma(a, b) {
+  return a + b;
+}
 
+module.exports = soma;
   

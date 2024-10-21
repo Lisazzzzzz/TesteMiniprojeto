@@ -1,9 +1,9 @@
-import { render, screen } from '@testing-library/react';
-import Home from '../Home';
+const React = require('react');
+const { render, screen } = require('@testing-library/react');
+const Home = require('../home');
 
-test('renders the Home component', () => {
-  render(<Home />);
-  const textElement = screen.getByText(/Hello, World!/i);
-  expect(textElement).toBeInTheDocument();
+// Testa se o componente Home é renderizado
+test('renderiza o componente Home com o texto correto', () => {
+  render(React.createElement(Home));
+  expect(screen.getByText('Bem-vindo à Home!')).toBeInTheDocument();
 });
-

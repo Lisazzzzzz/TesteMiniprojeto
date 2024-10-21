@@ -1,6 +1,8 @@
-const sum = require('../sum');
+const soma = require('../sum');
 
-test('adds 2 + 2 to equal 4', () => {
-  expect(sum(2, 2)).toBe(4);
+// Teste para verificar se a função retorna o valor esperado
+test('soma 2 + 2 deve ser igual a 4', () => {
+  expect(soma(2, 2)).toBe(4);
 });
+
 
