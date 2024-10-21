@@ -3,8 +3,6 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@testing-library/jest-dom": "^5.17.0",
-    "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
@@ -14,7 +12,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
+    "test": "react-scripts test; jest",
     "eject": "react-scripts eject",
     "prettier": "prettier --write '**/*.js'"
   },
@@ -38,10 +36,15 @@
   },
   "devDependencies": {
     "@eslint/js": "^9.13.0",
+    "@testing-library/dom": "^10.4.0",
+    "@testing-library/jest-dom": "^6.6.2",
+    "@testing-library/react": "^16.0.1",
     "eslint": "^8.57.1",
     "eslint-plugin-react": "^7.37.1",
     "eslint-plugin-react-hooks": "^5.0.0",
     "globals": "^15.11.0",
+    "jest": "^27.5.1",
+    "jest-environment-jsdom": "^29.7.0",
     "prettier": "^3.3.3"
   }
 }
