@@ -1,0 +1,38 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.title {
+  color: #343a40;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.image {
+  max-width: 100px; /* Ajuste o tamanho da imagem */
+  height: auto;
+  margin-left: 20px;
+}
+
+.info {
+  text-align: left;
+  flex: 1; /* Permite que o texto ocupe o espaço restante */
+}
+
+ul {
+  padding-left: 20px; /* Espaçamento para a lista */
+}
